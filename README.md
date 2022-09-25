@@ -3,7 +3,7 @@ A roam/render component for Roam Research that uses youglish to search videos in
 
 ## Demo of Usage
 
-![](https://github.com/clarapastore/youglish-roam-dutch/blob/main/core.cljs)
+![](https://github.com/clarapastore/youglish-roam-dutch/blob/main/demo.gif)
 
 1) Writing a word in Dutch to search videos for
 2) Creating a block underneath the word to call the component
