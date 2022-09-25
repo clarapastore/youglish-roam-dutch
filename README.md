@@ -31,7 +31,7 @@ This will allow us to call the component any time we want.
 If you want to read more on creating templates in Roam, [check this video out](https://www.youtube.com/watch?v=O_-lhwprLXs&ab_channel=ProductivityAcademy). 
 
 
-## Installing the render component
+### Installing the render component
 
 - Before pasting the code, we need to make sure we have toggled on the ability to add custom components on our graph.
 - To do this, click on the three-dot menu at the top-right of your graph, then navigate to Settings->User Code and toggle "Allow custom components on"
