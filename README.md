@@ -42,7 +42,7 @@ If you want to read more on creating templates in Roam, [check this video out](h
 - go to the parent block (the one where we put the temporary content) and change the content to `{{[[roam/render]]: }}`
 - after the colon, paste the block reference of the code block. The result will look something like this: `{{[[roam/render]]: ((adXeqOYBk))}}` (note that the block reference will have different letters and numbers than the ones in this example)
 
-Now, you will be able to use this render compnent as a template anytime you need.
+Now, you will be able to use this render compnent as a template anytime you need, like shown on the [demo of usage](https://github.com/clarapastore/youglish-roam-dutch#demo-of-usage)
 
 TODO: add demo loom
 
