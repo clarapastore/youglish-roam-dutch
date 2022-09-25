@@ -1,5 +1,11 @@
 # youglish-roam-dutch
-A roam/render component for [Roam Research](https://roamresearch.com/) that uses youglish to search videos in Dutch 
+A roam/render component for [Roam Research](https://roamresearch.com/) that uses [Youglish](https://youglish.com/) to search youtube videos in Dutch (language customizable)
+
+## Intro
+
+This component was created to replace [a smartblock](https://github.com/dvargas92495/SmartBlocks/issues/114) created by [Sangmin Ahn](https://github.com/gijigae) that used Youglish in almost the same way. Now that smartblocks are part of the Roam Depot marketplace, it's not possible to inject javascript into them anymore (for security reasons). Since the Youglish smartblock worked by injecting javascript into the graph, it's not usable anymore. 
+
+Hence this roam/render component.
 
 ## Demo of Usage
 
@@ -44,6 +50,16 @@ If you want to read more on creating templates in Roam, [check this video out](h
 
 Now, you will be able to use this render compnent as a template anytime you need, like shown on the [demo of usage](https://github.com/clarapastore/youglish-roam-dutch#demo-of-usage)
 
-TODO: add demo loom
+## Installation video
 
-TODO: add instructions on how to change language
+[Make sure to check out this video](https://www.loom.com/share/05b1e8dbf6134144801581e90727257e) to see a step by step installation of this component, along with demo usage and a short guide on how to change the search language from Dutch to anything supported in the [Youglish API](https://youglish.com/api/doc/js-api)
+
+## Can I change the language from Dutch to something else?
+
+Yes, you can change the language you want to use from Dutch to any of the languages supported by Youglish. Currently, these are the languages:
+
+Arabic, Chinese, Dutch, English, French, German, Greek, Hebrew, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Swedish, Thai, Turkish, Sign Languages
+
+So, to change the language, you can replace the string "Dutch" on line 24 of the [core.cljs](https://github.com/clarapastore/youglish-roam-dutch/blob/main/core.cljs) file to any of the aforementioned languages. 
+
+Make sure to check out [the final part of the installation video](https://www.loom.com/share/05b1e8dbf6134144801581e90727257e) to see this in action.
