@@ -21,7 +21,7 @@
   [string]
   [:a#yg-widget-0.youglish-widget
     {:data-query string
-     :data-lang "Dutch"} ;; change the value of :data-lang change the language
+     :data-lang "Dutch"} ;; change the value of :data-lang to change the language
   "YouGlish"])
 
 ;; views
