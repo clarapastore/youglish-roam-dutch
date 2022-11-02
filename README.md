@@ -18,7 +18,7 @@ Hence this roam/render component.
 5) Stopping the component with the stop button
 
 
-## Installation Instructions
+## Installation
 
 For this component to be used properly, we'll need to do two things:
 
